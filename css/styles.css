@@ -597,10 +597,10 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
+/*.img-fluid {
   max-width: 100%;
   height: auto;
-}
+}*/
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -11731,4 +11731,20 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+
+/*project link: added*/
+.project-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/*project title*/
+.custom-title {
+  font-size: 2rem;
 }
